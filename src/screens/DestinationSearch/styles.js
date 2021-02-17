@@ -3,12 +3,11 @@ import { StyleSheet } from 'react-native';
 const styles = StyleSheet.create({
     container:{
         margin: 20,
-
     },
     textInput:{
         fontSize: 20,
     },
-    iconContainer: {
+        iconContainer: {
         backgroundColor: '#e7e7e7',
         padding: 7,
         borderRadius:10,
@@ -22,9 +21,8 @@ const styles = StyleSheet.create({
         borderBottomColor: 'lightgray'
     },
     locationText: {
-
+         
     },
-
 });
 
 export default styles;
