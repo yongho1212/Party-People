@@ -10,12 +10,15 @@ const styles = StyleSheet.create({
     title: {
         fontSize: 100,
         fontWeight: 'bold',
-        color: 'orange',
+        color: '#FFF',
         marginTop:10,
-        marginLeft: 10
+        marginLeft: 10,
+        textShadowColor: "black",
+        textShadowOffset:{width: 3, height: 3},
+        textShadowRadius:0,
     },
     button: {
-        backgroundColor: '#e6e6e6',
+        backgroundColor: '#FFF',
         width: 300,
         height: 50,
         borderRadius: 20,
@@ -23,7 +26,7 @@ const styles = StyleSheet.create({
         alignItems: 'center',
         marginTop: 100,
         borderWidth: 6,
-        borderColor: 'orange',
+        borderColor: '#f15454',
         marginLeft:40
     },
     buttonText: {   
@@ -31,7 +34,7 @@ const styles = StyleSheet.create({
         fontWeight: 'bold'
     },
     searchButton: {
-        backgroundColor: '#e6e6e6',
+        backgroundColor: '#FFF',
         height: 60,
         borderRadius: 30,
         borderWidth: 3,
@@ -39,11 +42,12 @@ const styles = StyleSheet.create({
         zIndex: 100,
         width: Dimensions.get('screen').width - 20,
         marginHorizontal: 10,
-        borderColor: 'orange',
+        borderColor: '#f15454',
         justifyContent: 'center',
         alignItems: 'center',
         flexDirection: 'row',
         position:'absolute', 
+        marginTop: 30
     },
      searchButtonText: {   
         fontSize: 19,
