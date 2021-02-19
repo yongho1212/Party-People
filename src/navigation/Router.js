@@ -38,13 +38,14 @@ const Router = () => {
                 }}
                 />
 
-                <Stack.Screen 
-                name={"Search Result Screen"}
-                component={SearchResultsScreen} 
-                options={{
-                    title: "Lists"
-                }}
-                />
+            {/* <Stack.Screen
+                         name={"Post"}
+                         component={PostScreen}
+                         options={{
+                           title: "Accommodation"
+                        }}
+                          />     */}            
+
             </Stack.Navigator>
 
         </NavigationContainer>
