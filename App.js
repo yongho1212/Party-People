@@ -17,7 +17,8 @@ import {
   StatusBar,
 } from 'react-native';
 
-import Router from './src/navigation/Router'
+import Router from './src/navigation/Router';
+import SearchResultsScreen from './src/screens/SearchResult'
 
 
 const App: () => React$Node = () => {
