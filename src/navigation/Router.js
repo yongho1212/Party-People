@@ -3,7 +3,6 @@ import { NavigationContainer } from "@react-navigation/native";
 import { createStackNavigator } from "@react-navigation/stack";
 import DestinationSearchScreen from '../screens/DestinationSearch';
 import GuestScreen from '../screens/Guests';
-import SearchResultsScreen from '../screens/SearchResult'
 
 import HomeTabNavigator from './HomeTabNavigator';
 

@@ -9,16 +9,10 @@
 import 'react-native-gesture-handler';
 import React from 'react';
 import {
-  SafeAreaView,
-  StyleSheet,
-  ScrollView,
-  View,
-  Text,
-  StatusBar,
+  StatusBar
 } from 'react-native';
 
 import Router from './src/navigation/Router';
-import SearchResultsScreen from './src/screens/SearchResult'
 
 
 const App: () => React$Node = () => {
