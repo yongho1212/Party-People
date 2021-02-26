@@ -16,19 +16,20 @@ const [selectedPlaceId, setSelectedPlaceId] = useState(null);
         style={{height: '100%', width: '100%'}}
         provider={PROVIDER_GOOGLE}
         initialRegion={{
-          latitude: 28.78825,
-          longitude: -16.4324,
-          latitudeDelta: 0.0922,
-          longitudeDelta: 0.0421,
+          latitude: 37.530067547647896,
+          longitude: 126.99917569286329,
+          latitudeDelta: 0.8,
+          longitudeDelta: 0.8,
         }}>
-
+ 
       {places.map(place => (
         <CustomMarker
-          isSelected = {place.id === setSelectedPlaceId}
-          coordinate={place.coordinate}
-          price={place.newPrice}
+        coordinate={ place.coordinate }
+        price={place.newPrice}
+        isSelected = {place.id === selectedPlaceId}
+        onPress={() => setSelectedPlaceId(place.id)}
         />)
-          )}    
+      )}    
       </MapView>    
     </View>
   );

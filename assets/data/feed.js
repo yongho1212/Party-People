@@ -10,9 +10,10 @@
           newPrice: 20,
           totalPrice: 120,
           coordinate: {
-            latitude: 28.3915637,
-            longitude: -16.6291304,
+            latitude: 37.53394082012064,
+            longitude: 	126.98677227475497
           },
+           
         },
         {
           id: '1',
@@ -25,9 +26,10 @@
           newPrice: 65,
           totalPrice: 390,
           coordinate: {
-            latitude: 28.4815637,
-            longitude: -16.2291304,
+            latitude: 37.54260399086173,
+          longitude: 127.00476687097428
           },
+           
         },
         {
           id: '2',
@@ -40,9 +42,10 @@
           newPrice: 55,
           totalPrice: 330,
           coordinate: {
-            latitude: 28.2515637,
-            longitude: -16.3991304,
+            latitude: 37.54260399086173,
+            longitude: 126.9746259223069
           },
+           
         },
         {
           id: '3',
@@ -55,8 +58,9 @@
           newPrice: 100,
           totalPrice: 600,
           coordinate: {
-            latitude: 28.4815637,
-            longitude: -16.2991304,
+            latitude: 37.550960448759966,
+            longitude: 127.00033248833452
           },
+           
         },
       ];
