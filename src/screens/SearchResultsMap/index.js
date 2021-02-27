@@ -1,7 +1,8 @@
 import React, {useState} from 'react';
 import {View, Text} from 'react-native';
 import MapView, {Marker, PROVIDER_GOOGLE} from 'react-native-maps';
-import CustomMarker from '../../components/CustomMarker'
+import CustomMarker from '../../components/CustomMarker';
+import PostCarouselItem from '../../components/PostCarouselItem'
 
 import places from '../../../assets/data/feed';
 
@@ -30,7 +31,12 @@ const [selectedPlaceId, setSelectedPlaceId] = useState(null);
         onPress={() => setSelectedPlaceId(place.id)}
         />)
       )}    
-      </MapView>    
+      </MapView>
+
+      <View style={{position:'absolute', bottom:40}}>
+        <PostCarouselItem post={places[0]} />
+      </View>
+
     </View>
   );
 };
